@@ -14,7 +14,7 @@ const AboutMe = () => {
 
       <div class="max-w-screen-xl mx-auto lg:flex items-center gap-10 pb-5 md:pb-10">
         {/* <!-- image --> */}
-        <div class="lg:border-l-[30px] lg:border-b-[30px] border-[#374151] hidden lg:block">
+        <div class="lg:border-l-[30px] lg:border-b-[30px] border-[#374151]">
           <img
             class="w-1/2 mx-auto lg:w-full lg:relative -right-3 -top-3 rounded-lg"
             src={myPic}
