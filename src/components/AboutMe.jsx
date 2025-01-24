@@ -16,7 +16,7 @@ const AboutMe = () => {
         {/* <!-- image --> */}
         <div class="lg:border-l-[30px] lg:border-b-[30px] border-[#374151]">
           <img
-            class="w-1/2 mx-auto lg:w-full lg:relative -right-3 -top-3 rounded-lg"
+            class="w-1/2 mx-auto md:hidden lg:block block lg:w-full lg:relative -right-3 -top-3 rounded-lg"
             src={myPic}
             alt="my photo"
           />

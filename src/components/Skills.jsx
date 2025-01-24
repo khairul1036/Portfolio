@@ -24,14 +24,14 @@ const Skills = () => {
         subTitle={"The skills, tools and technologies I am really good at"}
       />
 
-      <div className="lg:w-10/12 mx-auto grid grid-cols-2 md:grid-cols-6 lg:grid-cols-8 gap-8 p-8">
+      <div className="lg:w-10/12 mx-auto grid grid-cols-3 md:grid-cols-6 gap-1 p-8">
         {skills.map((skill, index) => (
           <div
             key={index}
             className="text-center text-[#9A9FA8] font-semibold text-lg grayscale hover:grayscale-0 rounded-lg p-4 transition-all"
           >
             <img
-              className="w-24 h-24 mx-auto mb-2 rounded-lg"
+              className="w-10 h-10 mx-auto mb-2 rounded-lg"
               src={skill.logo}
               alt={skill.name}
             />

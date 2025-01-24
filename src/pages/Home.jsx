@@ -10,13 +10,27 @@ import ContactMe from "../components/ContactMe";
 const Home = () => {
   return (
     <>
-      <Banner />
-      <AboutMe />
-      <Experience />
-      <Skills/>
-      <Education/>
-      <Project/>
-      <ContactMe/>
+      <section id="home">
+        <Banner />
+      </section>
+      <section id="about">
+        <AboutMe />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
+      <section id="skill">
+        <Skills />
+      </section>
+      <section id="education">
+        <Education />
+      </section>
+      <section id="project">
+        <Project />
+      </section>
+      <section id="contact">
+        <ContactMe />
+      </section>
     </>
   );
 };

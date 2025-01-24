@@ -17,10 +17,18 @@ const ContactMe = () => {
       <div className="lg:w-10/12 lg:mx-auto lg:flex justify-between mx-5 pt-8 lg:pt-10">
         {/* Left Side - Contact Form */}
         <div className="lg:w-1/2 bg-[#374151] p-5 lg:p-10 rounded-ss-xl rounded-se-xl lg:rounded-se-none lg:rounded-s-xl flex justify-center items-center">
-          <form className="w-full max-w-lg">
+          <form
+            action="mailto:khairul4102.bd@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            className="w-full max-w-lg"
+          >
             {/* Email Field */}
             <div className="mb-4">
-              <label htmlFor="email" className="block text-gray-300 text-lg mb-2">
+              <label
+                htmlFor="email"
+                className="block text-gray-300 text-lg mb-2"
+              >
                 Email
               </label>
               <input
@@ -92,7 +100,12 @@ const ContactMe = () => {
             <h3 className="text-xl font-medium">Email</h3>
             <div className="flex items-center mt-4">
               <MdOutlineEmail className="mr-3 text-2xl" />
-              <p>khairul4102.bd@gmail.com</p>
+              <a
+                href="mailto:khairul4102.bd@gmail.com"
+                className="text-white hover:text-yellow-400"
+              >
+                khairul4102.bd@gmail.com
+              </a>
             </div>
           </div>
 
@@ -101,14 +114,24 @@ const ContactMe = () => {
             <h3 className="text-xl font-medium">Phone Number</h3>
             <div className="flex items-center mt-4">
               <IoMdCall className="mr-3 text-2xl" />
-              <p>+880 1788758131</p>
+              <a
+                href="tel:+8801788758131"
+                className="text-white hover:text-yellow-400"
+              >
+                +880 1788758131
+              </a>
             </div>
           </div>
 
           {/* WhatsApp */}
           <div className="flex items-center mt-4">
             <FaWhatsapp className="mr-3 text-2xl" />
-            <p className="text-lg">+880 1788758131 (WhatsApp)</p>
+            <a
+              href="https://wa.me/+8801788758131"
+              className="text-white hover:text-yellow-400 text-lg"
+            >
+              +880 1788758131 (WhatsApp)
+            </a>
           </div>
         </div>
       </div>
