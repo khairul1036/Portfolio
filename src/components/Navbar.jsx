@@ -107,7 +107,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://drive.google.com/file/d/1zxdua-uf-zxmEQQcYhZqF6yxKKwJIiBD/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FdFONtRt29i4meoPIH_nCNjcJ0bYoiQa/view?usp=sharing"
           className="btn border-none bg-gray-200 textColor hover:text-white text-base"
           target="_blank"
         >
